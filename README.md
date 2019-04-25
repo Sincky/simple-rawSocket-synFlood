@@ -4,8 +4,6 @@
 
 系统环境：linux
 
-IDE：qtCreator
-
 C++版本：C++11 或者更高
 
 GCC版本：GCC4.9 或者更高
@@ -16,10 +14,13 @@ GCC版本：GCC4.9 或者更高
 
 自行编译🤣
 
-sudo ./simple-rawSocket-synFlood.cpp [src_ip] [src_port] [attack_num]
+sudo ./simple-rawSocket-synFlood.cpp [src_ip] [src_port] [attack_times]
 
-例如：sudo ./simple-rawSocket-synFlood.cpp 192.168.1.2 80 5
-效果：SYN攻击192.168.1.2的80端口5次
+# 例子
+
+sudo ./simple-rawSocket-synFlood.cpp 192.168.1.2 80 5
+
+>SYN攻击192.168.1.2的80端口5次
 
 # 其他说明
 
